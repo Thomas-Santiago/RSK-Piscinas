@@ -17,46 +17,58 @@
         </button>
         <ul id="menu" role="menu">
             <li><a href="Produtos.html">Produtos</a></li>
-            <li><a href="Servico-Feito.html">Serviço Feito</a></li>
+            <li><a href="Clientes.html">Clientes</a></li>
             <li><a href="Contato.html">Contato</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-
-    <form action="">
-
-        <label for="name">
-            <span>Nome</span>
-            <input type="text" id="name" name="name" >
-        </label>
+    <div id="formulario">
         
-        <label for="email">
-            <span>E-mail</span>
-            <input type="email" id="email" name="email" placeholder="example@hotmail.com">
-        </label>
+        <form action="" method="">
 
-        <label for="text">
-            <span>Número</span>
-            <input type="number" id="telefone" name="telefone" placeholder="51 9 9999-9999">
-        </label>
+            <label for="name">
+                <span>Nome</span>
+                <input type="text" id="name" name="name" required>
+            </label>
+        
+            <label for="email">
+                <span>E-mail</span>
+                <input type="email" id="email" name="email" placeholder="example@hotmail.com">
+            </label>
 
-       <label for="text">
-           <span>Escreva qual o seu orçamento</span>
-        <textarea name="" id="" cols="50" rows="10"></textarea>
-       </label>
+            <label for="text">
+                <span>Número</span>
+                <input type="number" id="telefone" name="telefone" placeholder="51 9 9999-9999" required>
+            </label>
 
-        <label for="File">
-            <span>Envie uma foto de sua piscina</span>
-            <input type="file" id="file" name="file">
-        </label>
+            <label for="text">
+                <span>Escreva qual o seu orçamento</span>
+                <textarea name="" id="" cols="50" rows="10" required></textarea>
+            </label>
 
-        <label for="submit">
-            <input type="submit" name="submit" id="submit">
-        </label>
+            <label id="city">
+                <span>Selecione a Cidade</span>
+                <select name="cidade" id="cidade">
+                    <option value="Porto_Alegre">Porto Alegre</option>
+                    <option value="Cachoeirinha">Cachoeirinha</option>
+                    <option value="Canoas">Canoas</option>
+                </select>
+            </label>
 
-    </form>
+            <label for="File">
+                <span>Envie uma foto de sua piscina</span>
+                <input type="file" id="file" name="file">
+            </label>
+
+            <label for="submit">
+                <input type="submit" name="submit" id="submit">
+            </label>
+
+        </form>
+
+    </div>
 
     <div id="social">
         <a href="https://www.facebook.com/RSK-limpeza-de-piscinas-1676062092641199/" target="_Blank"><img id="face" src="Logo.png/facedourado.png" alt="Facebook" title="Facebook RSK Piscinas"></a>

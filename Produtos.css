@@ -47,6 +47,13 @@ a:hover {
     display: none;
 }
 
+#foto-breve img {
+  position: relative;
+  top: 200px;
+  left: 570px;
+  
+}
+
 @media (max-width: 700px) {
    
     #menu {
