@@ -1,50 +1,50 @@
 * {
-    margin: 0px;
-    padding: 0px; 
-    font-family: "Poppins" sans-serif; 
+  margin: 0px;
+  padding: 0px; 
+  font-family: "Poppins", sans-serif; 
 }
 
 a {
-    color: #DAA520;
-    text-decoration: none;
-    cursor: pointer;
+  color: #DAA520;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 a:hover {
-    background: rgba(0, 0, 0, .4);
+  color: #FFD700;
 }
 
 #logo {
-    font-size: 2.2rem;
-    font-weight: 700;
-    text-shadow:1px 1px 5px #DAA520;
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-shadow:1px 1px 5px #DAA520;
 }
 
 #header {
-    box-sizing: border-box;
-    height: 70px;
-    padding: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: 	#363636;
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: 	#363636;
 }
 
 #menu {
-    display: flex;
-    list-style: none;
-    gap: .5rem;
-    font-weight: 600;
-    font-size: 1.2rem;
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 #menu a {
-    display: block;
-    padding:.5rem;
+  display: block;
+  padding:.5rem;
 }
 
 #btn-mobile {
-    display: none;
+  display: none;
 }
 
 #fotos {

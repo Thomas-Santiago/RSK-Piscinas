@@ -50,13 +50,13 @@ a:hover {
 main#info {
   display: flex;
   justify-content:center;
-  padding: 10rem;
+  padding: 7rem;
 }
 
 #box-sobre {
   width: 100%;
-  height: 200px;
-  margin-top: 5rem;
+  height: 150px;
+  margin-top: 1rem;
   background-color: rgb(219, 219, 219);
   display: block;
   font-size: 1rem;
@@ -68,7 +68,7 @@ main#info {
   position: absolute;
 }
 #box-sobre h3 {
-  padding: 1.3rem;
+  padding: .5rem;
   color: #DAA520;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -82,8 +82,8 @@ main#info {
 #box-servico {
   padding-top: 1rem;
   width: 100%;
-  height: 200px;
-  margin-top: 21rem;
+  height: 150px;
+  margin-top: 20rem;
   display: block;
   background-color: rgb(219, 219, 219);
   justify-content:center;
@@ -94,7 +94,7 @@ main#info {
   position: absolute;
 }
 #box-servico h3 {
-  padding: 1.3rem;
+  padding: .5rem;
   color: #DAA520;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -108,8 +108,8 @@ main#info {
 #box-contrato {
   padding-top: 1rem;
   width: 100%;
-  height: 200px;
-  margin-top:  37rem;
+  height: 150px;
+  margin-top:  38rem;
   display: block;
   background-color: rgb(219, 219, 219);
   justify-content:center;
@@ -120,7 +120,7 @@ main#info {
   position: absolute;
 }
 #box-contrato h3 {
-  padding: 1.3rem;
+  padding: .5rem;
   color: #DAA520;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -131,11 +131,62 @@ main#info {
   color: #363636;
 }
 
-#fotogif {
-  width: 100%;
-  height: 400px;
+
+div.como-limpar1 {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 50rem;
+ padding-left: 15%;
+ position: absolute;
+}
+
+div .suja1 {
+  height: 350px;
+  width: 350px;
+}
+
+.como-limpar1 p {
+  text-align: center;
+  color: #363636;
+  width: 350px;
+  font-size: 1.2rem;
+}
+
+div.como-limpar2 {
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  padding-top: 50rem;
+  padding-right: 15%;
+}
+
+div .suja2 {
+  height: 350px;
+  width: 350px;
+  object-fit: fill;
+  object-position: center;
+}
+.como-limpar2 p {
+  text-align: center;
+  color: #363636;
+  width: 350px;
+  font-size: 1.2rem;
+}
+div .textimg {
+  color: #DAA520;
+}
+
+@media (max-width: 1000px) {
+        div.como-limpar1 {
+         padding-left: 0;
+        }
+        div.como-limpar2 {
+         padding-right: 0;
+        }
 
 }
+
 @media (max-width: 700px) {
    
     #menu {
@@ -211,6 +262,14 @@ main#info {
         top: -7px;
       } 
 
+      div.como-limpar1 {
+        padding-left: 25%;
+        
+       }
+       div.como-limpar2 {
+        padding-top: 90rem;
+        padding-right: 5%;
+       }
 }
 
 @media (max-width: 500px) {
