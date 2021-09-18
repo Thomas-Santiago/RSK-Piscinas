@@ -2,15 +2,17 @@
   margin: 0px;
   padding: 0px; 
   font-family: "Poppins", sans-serif; 
+  box-sizing: border-box;
+  border: 0;
 }
 
-a {
+header a {
   color: #DAA520;
   text-decoration: none;
   cursor: pointer;
 }
 
-a:hover {
+header a:hover {
   color: #FFD700;
 }
 
@@ -47,97 +49,78 @@ a:hover {
   display: none;
 }
 
+main {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
-
-main form  {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
+main form {
+  background-color: #363636;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 900px;
+  color: #DAA520;
 }
 
 main form label {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 main form label span {
-  margin-top: 1.5rem;
   font-size: 1.2rem;
+  margin-top: 2rem;
+  text-align: center;
 }
 
-main #city option {
-  font-size: 1rem;
+main form input {
+  background-color:rgb(87, 87, 87);
+  width: 250px;
+  height: 30px;
+  padding: 0 0.5rem;
+  margin-top: 1rem;
+  outline: none;
+  color: #DAA520;
+  border:1px solid rgb(87, 87, 87);
+  align-items: center;
 }
 
-span {
+main form .bottom{
   color: #363636;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-main form label textarea {
-  padding: 0 0.8rem;
-  margin-top: 15px;
   font-size: 1rem;
-  width: 300px;
-  height: 100px;
-  background: #b3b3b3;
-  color: #000000;
+  cursor: pointer;
+  width: 50%;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 32px;
+  background-color: #FFFF00;
+  transition: all .3s ease-in-out;
 }
 
-main form label input {
-    background: #b3b3b3;
-    border: 1px none;
-    width: 300px;
-    height: 40px;
-    padding: 0 0.5rem ;
-    margin-top: 1rem;
-    outline: none;
-    color: #000000;
-    font-size: 1rem;
-    border: 1px solid black;
-    border-radius: 8px;
+main form .bottom:hover {
+  background-color: #DAA520;
 }
 
-main form label input[type="submit"] {
-    cursor: pointer;
-    width: 100px;
-    margin-top: 2rem;
-    border: none;
-    border-radius: 32px;
-    background: #DAA520;
-    color: black;
+#social img {
+  height: 64px;
+  width: 64px;
+  margin-left: 5rem;
 }
 
-main form label input[type="submit"]:hover {
-  background: #B8860B;
+#social a:first-child img{
+  margin-left: 0;
 }
 
-main div #face {
-  height: 50px;
-  width: 50px;
-  display: flex;
-  position: relative;
-  top: -720px;
-}
 
-main div #insta {
-  height: 50px;
-  width: 50px;
-  display: flex;
-  position: relative;
-  top: -670px;
-}
-
-main div #whats {
-  height: 50px;
-  width: 50px;
-  display: flex;
-  position: relative;
-  top: -620px;
-}
 
 @media (max-width: 700px) {
 
@@ -217,59 +200,4 @@ main div #whats {
         transform: rotate(-135deg);
         top: -7px;
       } 
-      
-      main form label span {
-        margin-top: 0.5rem;
-        font-size: 1rem;
-      }
-
-      main form label textarea {
-        height: 100px;
-        width: 300px;
-      }
-      
-      main div #face {
-        height: 50px;
-        width: 50px;
-        display: flex;
-        position: relative;
-        top: -600px;
-      }
-      
-      main div #insta {
-        height: 50px;
-        width: 50px;
-        display: flex;
-        position: relative;
-        top: -550px;
-      }
-      
-      main div #whats {
-        height: 50px;
-        width: 50px;
-        display: flex;
-        position: relative;
-        top: -500px;
-      }
-}
-
-@media (max-width:500px) {
-  
-  main #formulario {
-    padding-top: 80px;
-  }
-
-  main #social #face{
-    top:-680px;
-  } 
-  main #social #insta{
-    top:-730px;
-    left:150px;
-  }
-  
-  main #social #whats {
-    top:-780px;
-    left: 290px;
-  }
-  
 }
