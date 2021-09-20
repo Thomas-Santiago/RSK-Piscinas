@@ -66,7 +66,7 @@ header a:hover {
 }
 #gridfoto1suja img {
   max-width: 320px;
-  
+
 }
 #gridfoto2limpa img {
   max-width: 320px; 
@@ -74,7 +74,7 @@ header a:hover {
 #gridfoto1suja h3 {
   font-weight: 800;
   text-transform:uppercase;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   padding: 1rem;
   width: 350px;
   color: #DAA520;
@@ -82,7 +82,7 @@ header a:hover {
 #gridfoto2limpa h3 {
   font-weight: 800;
   text-transform:uppercase;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #DAA520;
   padding: 1rem;
   width: 350px;
@@ -114,31 +114,31 @@ header a:hover {
   padding: 1rem;
  }
 #grid1 h3{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #DAA520;
   text-align: left;
   display: block;
 }
 #grid2 h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #DAA520;
   text-align: center;
 }
 #grid3 h3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: #DAA520;
   text-align: right;
 }
 #grid1 span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #e7e7e7;
 }
 #grid2 span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #e7e7e7;
 }
 #grid3 span {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #e7e7e7;
 }
 

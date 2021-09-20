@@ -82,7 +82,7 @@ main form label span {
   text-align: center;
 }
 
-main form input {
+main form input,textarea,select {
   background-color:rgb(87, 87, 87);
   width: 250px;
   height: 30px;
@@ -92,6 +92,10 @@ main form input {
   color: #DAA520;
   border:1px solid rgb(87, 87, 87);
   align-items: center;
+}
+main form textarea {
+  width: 350px;
+  height: 150px;
 }
 
 main form .bottom{
@@ -200,4 +204,74 @@ main form .bottom:hover {
         transform: rotate(-135deg);
         top: -7px;
       } 
+      #social img {
+        height: 48px;
+        width: 48px;
+        margin-left: 5rem;
+      }
+
+      main form {
+        width: 350px;
+        height: 750px;
+      }
+
+      main form label span {
+        font-size: .8rem;
+      }
+      
+      main form input {
+        width: 200px;
+        height: 30px;
+      }
+
+      main form textarea {
+        width: 250px;
+        height: 100px;
+      }
+      main form select {
+        font-size: .8rem;
+      }
+      
+      main form .bottom{
+        font-size: .8rem;
+        width: 50%;
+
+      }
+}
+
+@media (max-width: 380px) {
+  #social img {
+    height: 40px;
+    width: 40px;
+    margin-left: 5rem;
+  }
+
+  main form {
+    width: 300px;
+    height: 750px;
+  }
+
+  main form label span {
+    font-size: .7rem;
+  }
+  
+  main form input {
+    width: 180px;
+    height: 25px;
+  }
+
+  main form textarea {
+    width: 220px;
+    height: 70px;
+  }
+  main form select {
+    font-size: .7rem;
+  }
+  
+  main form .bottom{
+    font-size: .7rem;
+    width: 50%;
+
+  }
+
 }
